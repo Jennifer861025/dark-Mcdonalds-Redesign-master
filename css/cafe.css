@@ -1,0 +1,438 @@
+header .navbar-light .navbar-nav .nav-link.nav-link-2{
+    color: #fff;
+}
+.totop_btn{
+    width: 80px;
+    height: 80px;
+    margin-left: 1760px;
+    margin-top: 870px;
+    position: fixed;
+    z-index: 99;
+}
+.totop_btn i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    font-size: 50pt;
+    border-radius: 40px;
+    background-color: #FEC300;
+    color: #ffffff;
+    transition: all 0.4s ease-in-out;
+}
+.totop_btn i:hover{
+    background-color: #ffffff;
+    color: #FEC300;
+}
+.page1 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 24vh;
+    background-color: #262628;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.page1_word{
+    position: absolute;
+    margin-top: -130vh;
+    margin-left: 58vw;
+}
+p{
+    color: #fff;
+    font-size: 26px;
+    letter-spacing: 0.2rem;
+}
+.p_line2{
+    margin-left: 8vw;
+}
+
+
+.page2 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 160px;
+    background-color: #262628;
+    overflow: hidden;
+}
+
+.page2_word{
+    position: absolute;
+    margin-top: -33vh;
+    margin-left: 19vw;
+}
+
+.page2_word p{
+    color: #000;
+}
+
+.page3 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 160px;
+    background-color: #262628;
+    overflow: hidden;
+    display: flex;
+}
+
+.openingLottie1{
+    transform: scale(1.3);
+}
+
+.openingLottie2{
+    transform: scale(2);
+}
+
+.openingLottie3{
+    margin-left: -65vw;
+    margin-top: -13vh;
+}
+.cafevideo_img_control{
+    position: absolute;
+    margin-top: -98vh;
+    margin-left: 11vw;
+    width: 60vw;
+}
+.cafevideo_play_1{
+    position: absolute;
+    margin-top: -81vh;
+    margin-left: 16vw;
+    display: block;
+}
+
+.cafevideo_play_2{
+    display: none;
+}
+
+.cafevideo_play_3{
+    display: none;
+}
+
+
+section {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #262628;
+}
+
+.swiper-container {
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 89vw;
+    height: calc(100vh - 160px);
+    z-index: 2;
+}
+.swiper-wrapper{
+  display: flex;
+  align-items: center;
+}
+.price_img{
+  display: none;
+  width: 110%;
+  height: 14vh;
+  margin-top: -18vh;
+  margin-bottom: 4vh;
+}
+.heat{
+    width: 32vw;
+    display: flex;
+    justify-content: center;
+}
+.heat_img{
+  display: none;
+  width: 36vw;
+  margin-top: -4vh;
+}
+.swiper-slide {
+  transition: all 200ms linear;
+  opacity: 0.5;
+  margin-top: 60vh;
+}
+.swiper-slide.swiper-slide-active{
+  opacity: 1;
+}
+
+.swiper-slide.swiper-slide-active .price_img{
+    display: block;
+}
+.swiper-slide.swiper-slide-active .heat_img{
+    display: block;
+}
+
+.swiper-slide-size{
+    width: 32vw;
+    height: 29vh;
+} 
+.swiper-slide-1{
+    background-image: url(../img/cafe/latte_1-02.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.swiper-slide-2{
+    background-image: url(../img/cafe/latte_2-02.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.swiper-slide-3{
+    background-image: url(../img/cafe/latte_3-02.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.swiper-slide-4{
+    background-image: url(../img/cafe/latte_4-02.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.swiper-slide-5{
+    background-image: url(../img/cafe/latte_5-02.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.swiper-slide-6{
+    background-image: url(../img/cafe/latte_6-02.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.swiper-btn{
+    margin-top: -1vh;
+}
+
+.swiper-button-prev{
+  background-image: url("../img/icon_l-arrow.svg") !important;
+}
+
+.swiper-button-next{
+    background-image: url("../img/icon_r-arrow.svg") !important;
+}
+
+.graybox{
+    width: 100vw;
+    height: 40vh;
+    background-color: #424242;
+    margin-top: -60vh;
+}
+
+
+@media (max-width:768px){
+    .totop_btn{
+        width: 70px;
+        height: 70px;
+        margin-left: 620px;
+        margin-top: 870px;
+    }
+    .totop_btn i{
+        width: 70px;
+        height: 70px;
+        font-size: 36pt;
+    }
+    .openingLottie1{
+        transform: scale(1.5);
+        margin-left: -9vw;
+    }
+
+    .page1 {
+        padding-top: 39vh;
+    }
+    .page1_word{
+        margin-top: -98vh;
+        margin-left: 58vw;
+    }
+    p{
+        font-size: 18px;
+        letter-spacing: 0.1rem;
+    }
+
+    .openingLottie2{
+        transform: scale(1.45);
+    }
+
+    .page2_word{
+        margin-top:-22vh;
+        margin-left: 12vw;
+    }
+
+    .page2{
+        height: 50vh;
+        padding-top: 30px;
+    }
+
+    .openingLottie3{
+        transform: scale(0.7);
+        margin-left: -70vw;
+        margin-top: 0vh;
+    }
+
+    .page3{
+        height: 60vh;
+        padding-top: 0px;
+    }
+
+    .cafevideo_play_1{
+        display: none;
+    }
+    
+    .cafevideo_play_2{
+        position: absolute;
+        display: block;
+        margin-top: -52vh;
+        margin-left: 24.5vw;
+    }
+
+    .cafevideo_img_control{
+        position: absolute;
+        margin-top: -54vh;
+        margin-left: 20vw;
+        width: 70vw;
+    }
+    
+    section {
+        height: 904px;
+        overflow: hidden;
+    }
+
+    .swiper-container {
+        width: 100vw;
+        height: 100vh;
+    }
+    .price_img{
+      width: 180%;
+      height: 10vh;
+      margin-top: -8vh;
+      margin-left: -10vw;
+      margin-bottom: 2vh;
+    }
+    .heat{
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        margin-left: -13vw;
+    }
+    .heat_img{
+      display: none;
+      width: 100%;
+      height: 120%;
+    }
+    .swiper-slide {
+      margin-top: 45vh;
+    }
+    .swiper-slide.swiper-slide-active .swiper-slide-size{
+        display: block;
+    }
+    .swiper-slide-size{
+        width: 90vw;
+        height: 35vh;
+        margin-left: -27vw;
+        display: none;
+    } 
+    
+    .swiper-btn{
+        margin-top: -8vh;
+    }
+
+    .swiper-button-prev{
+        margin-left: 5vw;
+      }
+      
+    .swiper-button-next{
+        margin-right: 5vw;
+    }
+
+    .graybox{
+        height: 40vh;
+        margin-top: -75vh;
+    }
+}
+    
+
+@media (max-width:320px){
+    .totop_btn{
+        width: 45px;
+        height: 45px;
+        margin-left: 260px;
+        margin-top: 480px;
+    }
+    .totop_btn i{
+        width: 45px;
+        height: 45px;
+        font-size: 28pt;
+    }
+    .page1 {
+        padding-top: 29vh;
+    }
+    .page1_word{
+        margin-top: -42vh;
+        margin-left: 17vw;
+    }
+    p{
+        font-size: 12px;
+        letter-spacing: 0.1rem;
+    }
+    .p_line2{
+        margin-left: 20vw;
+    }
+    
+    .page2{
+        height: 52vh;
+    }
+    .openingLottie3{
+        transform: scale(0.7);
+        margin-left: -70vw;
+        margin-top: -8vh;
+    }
+    .page3{
+        height: 30vh;
+        padding-top: 2vh;
+    }
+    
+    .cafevideo_play_2{
+        display: none;
+    }
+    .cafevideo_play_3{
+        position: absolute;
+        display: block;
+        margin-top: -32vh;
+        margin-left: 24.5vw;
+    }
+
+    .cafevideo_img_control{
+        margin-top: -41vh;
+    }
+
+    section{
+        height: 88vh;
+    }
+
+    .price_img{
+        width: 200%;
+        height: 10vh;
+        margin-top: -8vh;
+        margin-left: -10vw;
+        margin-bottom: 0vh;
+      }
+      .heat{
+          width: 60vw;
+          margin-left: -15vw;
+      }
+
+      .swiper-slide-size{
+          height: 28vh;
+          margin-left: -30vw;
+      } 
+      
+      .swiper-btn{
+          margin-top: -13vh;
+          height: 5vh;
+      }
+  
+      .graybox{
+          height: 30vh;
+          margin-top: -76vh;
+      }
+}

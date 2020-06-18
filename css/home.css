@@ -1,0 +1,133 @@
+.totop_btn{
+    width: 80px;
+    height: 80px;
+    margin-left: 1760px;
+    margin-top: 870px;
+    position: fixed;
+    z-index: 99;
+}
+.totop_btn i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    font-size: 50pt;
+    border-radius: 40px;
+    background-color: #FEC300;
+    color: #ffffff;
+    transition: all 0.4s ease-in-out;
+}
+.totop_btn i:hover{
+    background-color: #ffffff;
+    color: #FEC300;
+}
+.page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #262628;
+    overflow-y: hidden;
+    box-sizing: border-box;
+}
+.page1 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 220px;
+    background-color: #262628;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.page2 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 190px;
+    background-color: #262628;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.page3 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 190px;
+    background-color: #262628;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.page4 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 190px;
+    background-color: #262628;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.openingLottie1{
+    transform: scale(2);
+}
+.openingLottie2{
+    transform: scale(2);
+}
+.openingLottie3{
+    transform: scale(2);
+}
+.openingLottie4{
+    transform: scale(2);
+}
+@media (max-width:768px){
+    .totop_btn{
+        width: 70px;
+        height: 70px;
+        margin-left: 620px;
+        margin-top: 870px;
+    }
+    .totop_btn i{
+        width: 70px;
+        height: 70px;
+        font-size: 36pt;
+    }
+    .page{
+        overflow: hidden;
+    }
+    .openingLottie1{
+        transform: scale(1.4);
+    }
+    .openingLottie2{
+        transform: scale(1.3);
+    }
+    .openingLottie3{
+        transform: scale(1.3);
+    }
+    .openingLottie4{
+        transform: scale(1.3);
+    }
+}
+@media (max-width:320px){
+    .totop_btn{
+        width: 45px;
+        height: 45px;
+        margin-left: 260px;
+        margin-top: 480px;
+    }
+    .totop_btn i{
+        width: 45px;
+        height: 45px;
+        font-size: 28pt;
+    }
+    .openingLottie1{
+        transform: scale(1.4);
+    }
+    .openingLottie2{
+        transform: scale(1.3);
+    }
+    .openingLottie3{
+        transform: scale(1.3);
+    }
+    .openingLottie4{
+        transform: scale(1.3);
+    }
+}

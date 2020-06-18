@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/feedback.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- firebase -->
+     <!-- Firebase App is always required and must be first -->
+     <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+     <!-- Add additional services that you want to use -->
+     <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-storage.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt=""></a>
+            <button style="z-index: 99;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar_icon-bar"></span>
+              <span class="navbar_icon-bar"></span>
+            </button>
+            
+          <div class="collapse navbar-collapse burgerbg-wrapper" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto burgerbg">
+              <li class="nav-item"><a class="nav-link burgerbg-item nav-link-1" href="food.html">美味餐點</a></li>
+              <li class="nav-item"><a class="nav-link burgerbg-item nav-link-2" href="cafe.html">McCafe'</a></li>
+              <li class="nav-item"><a class="nav-link burgerbg-item nav-link-3" href="#section1">最新消息</a></li>
+              <li class="nav-item"><a class="nav-link burgerbg-item nav-link-4" href="feedback.html">意見回饋</a></li>
+              <li class="nav-item search">
+                <a class="nav-link" href="#section1"><i class="im im-magnifier"></i></a>
+              </li>
+            </ul>
+          </div>
+    
+          <div class="nav-search"><a href=""><i class="im im-magnifier"></i></a></div>
+        </nav>
+      </header>
+
+      <div class="page">
+        <div class="form">
+          <form action="">
+            姓名：<input type="text" name="userName" required id="name"><br><br>
+            用餐日期：<input type="date" placeholder="YYYY-MM-DD" id="date"><br><br>
+            意見回饋：<br>
+            <div class="texta_1">
+              <textarea name="contentTxt" rows="10" cols="50" required id="feedback"></textarea><br>
+            </div>
+            <div class="texta_2">
+              <textarea name="contentTxt" rows="4" cols="22" required id="feedback"></textarea><br>
+            </div>
+            <input class="enter_btn" type="submit" id="submit">
+          </form>
+        </div>
+      </div>
+
+    <script src="js/vendor/jQuery.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/firebase.js"></script>
+</body>
+</html>
